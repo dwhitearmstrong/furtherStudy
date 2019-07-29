@@ -22,6 +22,20 @@ header{
 	position: relative;
   overflow: hidden;
 }
+
+@media screen and (orientation: landscape){
+    body {
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/006/145/220/large/artur-sadlos-future-tokyo-003-wip004i.jpg?1496344976");
+        background-attachment: fixed;
+
+    }
+}
+
+@media screen and (orientation: portrait){
+    body{
+        background-image: url("https://cdna.artstation.com/p/assets/images/images/006/145/220/large/artur-sadlos-future-tokyo-003-wip004i.jpg?1496344976");
+    }
+}
 /*Targets all within the header*/
 .container{
 	max-width: 120rem;
