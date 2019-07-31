@@ -40,6 +40,8 @@ html{
 a{
 	text-decoration: none;
 	color: #eee;
+	text-size-adjust: auto;
+	font-size: 3rem
 }
 
 @media screen and (orientation: landscape){
@@ -57,7 +59,7 @@ a{
 }
 /*Targets all within the header*/
 .container{
-	max-width: 120rem;
+	max-width: 0 auto;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -73,10 +75,6 @@ a{
 	display: none;
 }
 
-/*.menu{
-    display: none;
-}*/
-
 /**/
 nav{
 	padding-top: 5rem;
@@ -85,13 +83,15 @@ nav{
 	align-items: center;
 	text-transform: uppercase;
 	font-size: 1.6rem;
+	overflow: hidden;
 }
 /**/
 .brand{
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 300;
 	transform: translateX(-100rem);
 	animation: slideIn .5s forwards;
+	overflow: hidden;
 }
 /**/
 .brand span{
@@ -100,9 +100,11 @@ nav{
 /**/
 nav ul{
 	display: flex;
+	overflow: hidden;
 }
 /**/
 nav ul li{
+	overflow: hidden;
 	list-style: none;
 	transform: translateX(100rem);
 	animation: slideIn .5s forwards;
@@ -125,6 +127,7 @@ nav ul li:nth-child(4){
 }
 /**/
 nav ul li a{
+	overflow: hidden;
 	padding: 1rem 0;
 	margin: 0 3rem;
 	position: relative;
@@ -137,6 +140,7 @@ nav ul li a:last-child{
 /**/
 nav ul li a::before,
 nav ul li a::after{
+	overflow: hidden;
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -158,6 +162,7 @@ nav ul li a::after{
 }
 /**/
 .overlay{
+	overflow: hidden;
 	background-color: rgba(0,0,0,.95);
 	position: fixed;
 	right: 0;
@@ -191,6 +196,7 @@ nav ul li a:hover::after{
 	}
 
 	nav{
+		overflow: hidden;
 		padding-top: 0;
 		display: none;
 		flex-direction: column;
@@ -214,7 +220,7 @@ nav ul li a:hover::after{
 	}
 /**/
 	.brand{
-		font-size: 5rem;
+		font-size: 3rem;
 	}
   /**/
   .overlay.menu-open,
