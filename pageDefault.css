@@ -2,7 +2,7 @@
 
 .text{
 	font-family: 'Orbitron', sans-serif;
-    font-size: 25mm;
+    font-size: 10px;
     align-content: center;
 }
 
@@ -33,7 +33,7 @@
 }
 /**/
 html{
-	font-size: 5px;
+	font-size: 10px;
 	font-family: "Roboto Cn", sans-serif;
 }
 /**/
