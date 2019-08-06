@@ -1,0 +1,101 @@
+!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog|Cyber Security|Stuxnet</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="personalise.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="returnPersonalise.css"> <!-- Resource style -->
+</head>
+
+<body class="glitch-transition">
+<main class="cd-main-content">
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="AboutMe.html">About</a>
+          <a href="Miscellaneous.html">Miscellaneous</a>
+          <a href="Home.html">Home</a>
+          <a href="contactMe.html">Contact</a>
+        </div>
+      
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        </span>
+	<div class="center">
+		<h1>My Blog</h1>
+		<a href="#modal-1" class="cd-btn cd-modal-trigger">Shall We Begin?</a>
+	</div>
+</main> <!-- .cd-main-content -->
+<div class="cd-modal" id="modal-1">
+	<div class="modal-content">
+		<h2>Stuxnet?</h2>
+		
+		<p>
+			Stuxnet, put simply, is a computer virus, though there’s a difference with this one, it only attacked a very specific target, & on top of that told the system operators that everything going on was normal.<br>
+
+Around June 2010, this virus was discovered dormant within the data banks of  various traffic control systems, powerplants and factories across the planet, that was many orders of magnitude more complex than any computer virus that has been seen before, with a wide array of capabilities, such as the ability to cause real world physical damage to the machinery within nuclear reactors and deactivate oil pipelines.<br>
+Unlike viruses we’re used to, which carries the usual forgery security clearances that assist the virus in burrowing deep into systems, it had real clearance which was stolen from a certain reputable large technology company. Using this security clearance, it exploited security gaps that system creators are not aware of, called “zero-day vulnerabilities”, of which Stuxnet exploited around 20 of these vulnerabilities. Information such vulnerabilities can demand a healthy price tag on the dark web.<br>
+Once within a system, unless certain conditions were met, the virus didn’t activate, this is because buried within the virus code was a highly specific target, its aim? To attack PLC's with a specific serial number, referring to the PLC within an Iranian power plant, to manage the velocity of the centrifuge. According to the UN international atomic energy agency this threw the program back several months furthermore it destroyed approximately 1000 centrifuges according to Washington’s institute for science and international security (ISIS).<br>
+Long story short this is a weapon used for combat for the 21st century, made up entirely of code, anonymous, specific. the original American Stuxnet code, called Olympic Games, was, in comparison relatively safe and targeted the Iran power plant, according to the Edward Snowden leaks, it is believed Israel kept pressuring the USA to make this virus more powerful until, the US denied taking further action, so in the end Israel made the virus significantly more aggressive then released it without permission or knowledge from the US government. <br><br>
+Not long after the discovery of this virus, a legacy was created:<br>
+•	Duqu (2011). Based on Stuxnet code, Duqu was designed to log keystrokes and mine data from industrial facilities, presumably to launch a later attack.<br>
+•	Flame (2012). Flame, like Stuxnet, travelled via USB stick. Flame was sophisticated spyware that recorded Skype conversations, logged keystrokes, and gathered screenshots, among other activities. It targeted government and educational organizations and some private individuals mostly in Iran and other Middle Eastern countries.<br>
+•	Havex (2013). The intention of Havex was to gather information from energy, aviation, defence, and pharmaceutical companies, among others. Havex malware targeted mainly U.S., European, and Canadian organizations.<br>
+•	Industroyer (2016). This targeted power facilities. It’s credited with causing a power outage in the Ukraine in December 2016.<br>
+•	Triton (2017). This targeted the safety systems of a petrochemical plant in the Middle East, raising concerns about the malware maker’s intent to cause physical injury to workers.<br>
+•	Most recent (2018). An unnamed virus with characteristics of Stuxnet reportedly struck unspecified network infrastructure in Iran in October 2018.<br>
+While ordinary computer users have little reason to worry about these Stuxnet-based malware attacks, they are clearly a major threat to a range of critical industries, including power production, electrical grids, and defence. While extortion is a common goal of virus makers, the Stuxnet family of viruses appears to be more interested in attacking infrastructure. <br>
+
+        </p>
+        <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/6WmaZYJwJng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+		<p>
+            
+        </p>
+        <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Topics</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="StuxNetBlog.html">Stuxnet. AKA Olympic Games</a>
+                  <a href="EnemiesOfTheInternet.html">Enemies of The Internet</a>
+                  <a href="#">Internet Of Things</a>
+                  <a href="#">Contents</a>
+                </div>
+              </div>
+        <div class="center">
+        
+        </div>
+	</div> <!-- .modal-content -->
+
+	<a href="#0" class="modal-close">Close</a>
+</div> <!-- .cd-modal -->
+
+<div class="cd-transition-layer" data-frame="25"> 
+	<div class="bg-layer"></div>
+</div> <!-- .cd-transition-layer -->
+
+<script src="return.js"></script> <!-- Modernizr -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-2.2.1-min.js"><\/script>');
+</script>
+<script src="transition.js"></script> <!-- Resource jQuery -->
+<script src="menu.JS"></script>
+</body>
+<script src="menu.JS"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="button.js"></script><!-- this links the javascript to the HTML--> 
+</html>
