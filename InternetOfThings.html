@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog|Cyber Security|IoT</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="personalise.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="returnPersonalise.css"> <!-- Resource style -->
+</head>
+
+<body class="glitch-transition">
+<main class="cd-main-content">
+    <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="AboutMe.html">About</a>
+          <a href="Miscellaneous.html">Miscellaneous</a>
+          <a href="Home.html">Home</a>
+          <a href="contactMe.html">Contact</a>
+        </div>
+      
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        </span>
+	<div class="center">
+		<h1>My Blog</h1>
+		<a href="#modal-1" class="cd-btn cd-modal-trigger">Internet of Things (IoT)</a>
+	</div>
+</main> <!-- .cd-main-content -->
+<div class="cd-modal" id="modal-1">
+	<div class="modal-content">
+		<h2>So what are we talking about here?</h2>
+		
+		<p>
+			The internet of things, a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.<br>
+“things” referring to, for example, a person with a pacemaker in their chest cavity, an animal with a chip implant, a smart fridge, or smart TV, even an entire house, the list is potentially endless. <br>
+Your car is now a PC, your phone is now a PC, most of your household appliances is they aren’t PC’s by now they soon will be.<br>
+
+Now lets take, for example, the idea of some malicious entity wanting to target some other individual, or some conglomerate, lets say that malicious entity wanted to extort some type of “monetary trade” with their target in exchange for the regaining of control of their devices once again.<br>
+Confused?<br>
+Allow me to explain further.<br>
+Before all of that though, first I should tell you about a few things:<br>
+Ransomware: <br>
+a type of malicious software, or malware, designed to deny access to a computer system or system data until a ransom is paid. Typically spreading through phishing emails or by the user unknowingly visiting an infected website.<br>
+Examples include “locky” & “cryptolocker”<br>
+Notable attacks include:</p> 
+<br>
+
+<p>
+1. TeslaCrypt<br>
+2. SimpleLocker<br>
+3. WannaCry<br>
+4. NotPetya<br>
+5. SamSam<br>
+6. Ryuk<br>
+</p>
+
+<br>
+<p>
+Botnets:<br>
+A botnet is a collection of internet-connected devices, which may include PCs, servers, mobile devices and internet of things devices that are infected and controlled by a common type of malware. Users are often unaware of a botnet infecting their system. <br>
+Infected devices are controlled remotely by threat actors, often cybercriminals, and are used for specific functions, so the malicious operations stay hidden to the user. <br>
+Botnets are commonly used to send email spam, engage in click fraud campaigns and generate malicious traffic for distributed denial-of-service attacks.<br>
+Now that I’ve got that out of the way lets talk about the coming age of “jackware”. malicious software that seeks to take control of a device, the primary purpose of which is neither data processing nor digital communications. A good example is a “connected car”, as many of today’s latest models are described. These cars perform a large amount of data processing and communicating, but their primary purpose is to get you from A to B.<br>
+So think of jackware as a specialized form of ransomware. The malicious code of ransomware encrypts documents on your computer and demands a ransom to unlock them. The goal of jackware is to lock up or take control of a car or other smart IoT device until you pay up.
+Basically, this: </p>
+<br>
+        </p>
+        <center><img src="image-2.png" alt="Ransomware of things"></center>
+        <p>Here are a few quick and easy to digest videos I found on the topic</p>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/QSIPNhOiMoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/vgoX_m6Mkko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+	
+        <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Topics</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="StuxNetBlog.html">Stuxnet. AKA Olympic Games</a>
+                  <a href="InternetOfThings.html">Internet Of Things</a>
+                  <a href="MyBlog.html">Contents</a>
+                </div>
+              </div>
+        <div class="center">
+        
+        </div>
+	</div> <!-- .modal-content -->
+
+	<a href="#0" class="modal-close">Close</a>
+</div> <!-- .cd-modal -->
+
+<div class="cd-transition-layer" data-frame="25"> 
+	<div class="bg-layer"></div>
+</div> <!-- .cd-transition-layer -->
+
+<script src="return.js"></script> <!-- Modernizr -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-2.2.1-min.js"><\/script>');
+</script>
+<script src="transition.js"></script> <!-- Resource jQuery -->
+<script src="menu.JS"></script>
+</body>
+<script src="menu.JS"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="button.js"></script><!-- this links the javascript to the HTML--> 
+</html>

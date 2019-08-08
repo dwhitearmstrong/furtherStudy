@@ -1,83 +1,93 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Blog</title>
-	
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700' rel='stylesheet' type='text/css'>
-	
-	<link rel="stylesheet" href="personalise.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="returnPersonalise.css"> <!-- Resource style -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>My Blog</title>
+
+<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="personalise.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="returnPersonalise.css"> <!-- Resource style -->
 </head>
 
 <body class="glitch-transition">
 <main class="cd-main-content">
-    <!-- The overlay -->
+<!-- The overlay -->
 <div id="myNav" class="overlay">
 
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a href="AboutMe.html">About</a>
-          <a href="Miscellaneous.html">Miscellaneous</a>
-          <a href="Home.html">Home</a>
-          <a href="contactMe.html">Contact</a>
-        </div>
-      
-      </div>
-      
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span onclick="openNav()">
-        <div class="icon"></div>
-        <div class="icon"></div>
-        <div class="icon"></div>
-        </span>
-	<div class="center">
-		<h1>My Blog</h1>
-		<a href="#modal-1" class="cd-btn cd-modal-trigger">Shall We Begin?</a>
-	</div>
+<!-- Button to close the overlay navigation -->
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+<!-- Overlay content -->
+<div class="overlay-content">
+<a href="AboutMe.html">About</a>
+<a href="Miscellaneous.html">Miscellaneous</a>
+<a href="Home.html">Home</a>
+<a href="contactMe.html">Contact</a>
+</div>
+
+</div>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+</span>
+<div class="center">
+<h1>My Blog</h1>
+<a href="#modal-1" class="cd-btn cd-modal-trigger">Shall We Begin?</a>
+</div>
 </main> <!-- .cd-main-content -->
 <div class="cd-modal" id="modal-1">
-	<div class="modal-content">
-		<h2>Contents</h2>
-		
-		<p>
-			Cyber security
-		</p>
+<div class="modal-content">
+<h2>Contents</h2>
 
-		<p>
-            What if I told you that it was possible to cause actual real-world damage on a varying scale using nothing but a computer, or a mobile device, or, maybe, a smart fridge. (strange I know but hear me out).<br>
-            Within this section, I hope to introduce you to a few interesting topics within the sphere of cyber security, here I’ll have my own personal blogs on the topic, ever hear of the internet of things? How about botnets? Ransomware? What about Stuxnet, also known as Olympic games? <br>
-            I think you’ll find that in a world as technologically advanced as ours, there are plenty of things to discuss, why not join the discussion?
-        </p>
-        <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Topics</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="StuxNetBlog.html">Stuxnet. AKA Olympic Games</a>
-                  <a href="EnemiesOfTheInternet.html">Enemies of The Internet</a>
-                  <a href="#">Link 3</a>
-                </div>
-              </div>
-        <div class="center">
-        
-        </div>
-	</div> <!-- .modal-content -->
+<p>
+Cyber security
+</p>
 
-	<a href="#0" class="modal-close">Close</a>
+<p>
+What if I told you that it was possible to cause actual real-world damage on a varying scale using nothing but a computer, or a mobile device, or, maybe, a smart fridge. (strange I know but hear me out).<br>
+Within this section, I hope to introduce you to a few interesting topics within the sphere of cyber security, here I’ll have my own personal blogs on the topic, ever hear of the internet of things? How about botnets? Ransomware? What about Stuxnet, also known as Olympic games? <br>
+I think you’ll find that in a world as technologically advanced as ours, there are plenty of things to discuss, why not join the discussion?
+</p>
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Topics</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="StuxNetBlog.html">Stuxnet. AKA Olympic Games</a>
+      <a href="InternetOfThings.html">Internet Of Things (IoT)</a>
+    </div>
+    </div>
+  
+<p>
+Mass surveillance within Democracies
+</p>
+
+<p>
+
+</p>
+<div class="dropdown1">
+<button onclick="myFunction1()" class="dropbtn1">Topics</button>
+<div id="myDropdown1" class="dropdown-content1">
+<a href="EnemiesOfTheInternet.html">Enemies of The Internet</a>
+</div>
+</div>
+</div> <!-- .modal-content -->
+
+<a href="#0" class="modal-close">Close</a>
 </div> <!-- .cd-modal -->
 
 <div class="cd-transition-layer" data-frame="25"> 
-	<div class="bg-layer"></div>
+<div class="bg-layer"></div>
 </div> <!-- .cd-transition-layer -->
 
 <script src="return.js"></script> <!-- Modernizr -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script>
-	if( !window.jQuery ) document.write('<script src="js/jquery-2.2.1-min.js"><\/script>');
+if( !window.jQuery ) document.write('<script src="js/jquery-2.2.1-min.js"><\/script>');
 </script>
 <script src="transition.js"></script> <!-- Resource jQuery -->
 <script src="menu.JS"></script>
